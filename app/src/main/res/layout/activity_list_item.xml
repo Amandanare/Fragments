@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/list_item"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ImageResourceId"
+        android:layout_width="25dp"
+        android:layout_height="25dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/version_english"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/version_miwok"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="top"
+            android:textSize="18sp"
+            android:textColor="#000"/>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
